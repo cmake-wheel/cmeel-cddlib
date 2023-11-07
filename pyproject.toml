@@ -13,7 +13,7 @@ version = "0.94.13"
 homepage = "https://github.com/cmake-wheel/cmeel-cddlib"
 
 [tool.cmeel]
-build-number = 1
+build-number = 2
 has-sitelib = false
 run-tests = false
 
