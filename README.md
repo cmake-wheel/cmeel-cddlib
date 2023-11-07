@@ -1,3 +1,3 @@
 # CMeel cddlib
 
-[qpOASES](https://github.com/cddlibi/cddlibi) distribution for cmeel packages.
+[cddlib](https://github.com/cddlib/cddlib) distribution for cmeel packages.
