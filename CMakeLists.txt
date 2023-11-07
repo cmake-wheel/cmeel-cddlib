@@ -4,7 +4,7 @@ set(NAME cddlib)
 set(ORIGINAL_VERSION "0.94m")
 set(NUMERIC_VERSION "0.94.13")
 
-project(cmeel-${NAME} VERSION ${CMAKE_VERSION})
+project(cmeel-${NAME} VERSION ${NUMERIC_VERSION})
 
 if(DEFINED ENV{CMEEL_JOBS})
   set(CMEEL_JOBS
