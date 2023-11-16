@@ -16,6 +16,7 @@ homepage = "https://github.com/cmake-wheel/cmeel-cddlib"
 build-number = 2
 has-sitelib = false
 run-tests = false
+upstream-version = "0.94m"
 
 [tool.tomlsort]
 all = true

@@ -20,8 +20,8 @@ include(ExternalProject)
 ExternalProject_Add(
   ${NAME}
   URL "https://github.com/${NAME}/${NAME}/releases/download/${ORIGINAL_VERSION}/${NAME}-${ORIGINAL_VERSION}.tar.gz"
-      DOWNLOAD_EXTRACT_TIMESTAMP
-      OFF
+  URL_HASH "SHA1=8f38597a0479a191a62346dab89794e888c478b6"
+  DOWNLOAD_EXTRACT_TIMESTAMP OFF
   BUILD_IN_SOURCE ON
   CONFIGURE_COMMAND "./configure" "--prefix=${CMAKE_INSTALL_PREFIX}"
   BUILD_COMMAND "make" "-j${CMEEL_JOBS}"
