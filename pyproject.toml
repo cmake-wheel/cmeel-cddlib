@@ -11,6 +11,7 @@ version = "0.94.13"
 
 [project.urls]
 homepage = "https://github.com/cmake-wheel/cmeel-cddlib"
+upstream = "https://github.com/cddlib/cddlib"
 
 [tool.cmeel]
 build-number = 2
