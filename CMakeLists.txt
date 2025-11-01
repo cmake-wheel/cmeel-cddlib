@@ -25,6 +25,9 @@ ExternalProject_Add(
   URL_HASH "SHA256=${SHA256}"
   DOWNLOAD_EXTRACT_TIMESTAMP OFF
   BUILD_IN_SOURCE ON
+  PATCH_COMMAND
+    "sed" "-i.bak" "s/SUBDIRS *= doc lib-src src/SUBDIRS = lib-src src/"
+    "Makefile.am"
   CONFIGURE_COMMAND "./configure" "--prefix=${CMAKE_INSTALL_PREFIX}"
   BUILD_COMMAND "make" "-j${CMEEL_JOBS}"
   TEST_COMMAND "make" "check"
